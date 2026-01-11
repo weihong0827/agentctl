@@ -1,0 +1,16 @@
+{
+  "name": "agentctl",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.4",
+    "@openai/codex-sdk": "^0.80.0",
+    "@opencode-ai/sdk": "^1.1.12"
+  }
+}
